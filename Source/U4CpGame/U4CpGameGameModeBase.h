@@ -13,5 +13,6 @@ UCLASS()
 class U4CPGAME_API AU4CpGameGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+public:
+	AU4CpGameGameModeBase();
 };
