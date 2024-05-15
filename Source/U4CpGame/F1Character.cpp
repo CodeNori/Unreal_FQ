@@ -52,6 +52,7 @@ AF1Character::AF1Character()
 	CursorToWorld->DecalSize = FVector(16.0f, 32.0f, 32.0f);
 	CursorToWorld->SetRelativeRotation(FRotator(90.0f, 0.0f, 0.0f).Quaternion());
 
+	// Tags.Add(FName("PlayerTag"));
 }
 
 // Called when the game starts or when spawned
